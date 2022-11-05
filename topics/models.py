@@ -17,6 +17,9 @@ class Topic(models.Model):
         verbose_name = _("Topic")
         verbose_name_plural = _("topics")
 
+    def __str__(self):
+        return self.title
+
 
 class Vote(models.Model):
     class VoteChoice(models.TextChoices):
