@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     # Apps
     "topics",
+
+    # API
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
